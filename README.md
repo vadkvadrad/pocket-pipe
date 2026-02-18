@@ -39,8 +39,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone <repository-url>
-   cd mine-deploy
+   git clone https://github.com/vadkvadrad/orion-deploy.git
+   cd orion-deploy
    ```
 
 2. Установите необходимые Ansible коллекции:
