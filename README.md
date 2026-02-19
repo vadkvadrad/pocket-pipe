@@ -1,4 +1,4 @@
-# Pocket Pipe
+# Orion deploy
 
 Универсальное Ansible-приложение для автоматического деплоя Docker-приложений на удаленные серверы. Поддерживает автоматическую установку Docker, сборку и публикацию образов, а также деплой через docker-compose.
 
@@ -38,7 +38,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vadkvadrad/pocket-pipe.git
+   git clone https://github.com/vadkvadrad/orion-deploy.git
    cd orion-deploy
    ```
 
@@ -54,7 +54,7 @@
 ## Структура проекта
 
 ```
-pocket-pipe/
+orion-deploy/
 ├── deploy.yml                    # Главный playbook
 ├── inventory/                    # Пользовательская директория (не коммитится в git)
 │   ├── hosts.ini                 # Список серверов
